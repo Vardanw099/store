@@ -1,0 +1,16 @@
+.product {
+  animation: fromBottom 2s ease both;
+  animation-timeline: view();
+  /* animation-range: entry 50% cover 50%; */
+}
+
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

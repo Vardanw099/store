@@ -1,0 +1,14 @@
+.navLink {
+  position: relative;
+  overflow: hidden;
+}
+
+.underLine {
+  transform: translateX(-110%);
+  transition: 0.3s ease;
+}
+
+.navLink:hover > .underLine {
+  transform: translateX(0);
+  transition: 0.3s ease;
+}
